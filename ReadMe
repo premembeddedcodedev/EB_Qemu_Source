@@ -1,3 +1,5 @@
 
 UEFI Compilation procedure:
-  https://developer.arm.com/documentation/102677/0100/Set-up-the-Raspberry-Pi
+  
+  - https://github.com/pftf/RPi4
+  - https://developer.arm.com/documentation/102677/0100/Set-up-the-Raspberry-Pi
