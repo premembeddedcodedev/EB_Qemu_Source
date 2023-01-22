@@ -3,3 +3,4 @@ UEFI Compilation procedure:
   
   - https://github.com/pftf/RPi4
   - https://developer.arm.com/documentation/102677/0100/Set-up-the-Raspberry-Pi
+  - https://raduzaharia.medium.com/system-emulation-using-qemu-raspberry-pi-4-and-efi-87652ff203b7
