@@ -1,0 +1,5 @@
+enable_uart=1
+kernel=u-boot.bin
+arm_64bit=1
+core_freq=250
+device_tree=bcm2710-rpi-3-b-plus.dtb
