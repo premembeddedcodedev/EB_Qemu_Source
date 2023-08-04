@@ -1,0 +1,51 @@
+echo Creating boot partition from $start0 to $end0
+export sectors0=`expr $end0 - $start0`
+export size0=`expr $sectors0 \* 512`
+export offset0=`expr $start0 \* 512`
+sudo losetup -d /dev/loop31 > /dev/null 2>&1
+sudo losetup /dev/loop31 sd.img -o $offset0 --sizelimit $size0
+sudo mkfs.vfat /dev/loop31
+sudo mount /dev/loop31 mnt/boot
+
+echo Creating rootfs partition from $start0 to $end0
+export sectors1=`expr $end1 - $start1`
+export size1=`expr $sectors1 \* 512`
+export offset1=`expr $start1 \* 512`
+sudo losetup -d /dev/loop32 > /dev/null 2>&1
+sudo losetup /dev/loop32 sd.img -o $offset1 --sizelimit $size1
+sudo mkfs.ext2 /dev/loop32
+sudo mount /dev/loop32 mnt/rootfs
+
+echo Creating media partition from $start0 to $end0
+sudo losetup -d /dev/loop33 > /dev/null 2>&1
+export sectors2=`expr $end2 - $start2`
+export size2=`expr $sectors2 \* 512`
+export offset2=`expr $start2 \* 512`
+sudo losetup /dev/loop33 sd.img -o $offset2 --sizelimit $size2
+sudo mkfs.vfat /dev/loop33
+sudo mount /dev/loop33 mnt/media
+
+Creating boot partition from 2048 to 104447
+mkfs.fat 4.1 (2017-01-24)
+
+Creating rootfs partition from 2048 to 104447
+mke2fs 1.45.5 (07-Jan-2020)
+Discarding device blocks: done
+
+Creating filesystem with 38399 4k blocks and 38400 inodes
+Filesystem UUID: 633463ce-0e9e-486b-b672-85ac9ad4e2e8
+Superblock backups stored on blocks:
+        32768
+
+Disk sd.img: 256 MiB, 268435456 bytes, 524288 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x58d5d9da
+
+Device     Boot  Start    End Sectors  Size Id Type
+sd.img1    *      2048 104447  102400   50M  b W95 FAT32
+sd.img2         104448 411647  307200  150M 83 Linux
+sd.img3         411648 524287  112640   55M  b W95 FAT32
+

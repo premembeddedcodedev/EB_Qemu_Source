@@ -1,0 +1,24 @@
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 0.397389 s, 675 MB/s
+Copying bootloader
+583+1 records in
+583+1 records out
+597032 bytes (597 kB, 583 KiB) copied, 0.00757877 s, 78.8 MB/s
+Creating boot partition from 2048 to 104447
+mkfs.fat 4.1 (2017-01-24)
+Creating rootfs partition from 2048 to 104447
+mke2fs 1.45.5 (07-Jan-2020)
+Discarding device blocks: done
+Creating filesystem with 38399 4k blocks and 38400 inodes
+Filesystem UUID: 633463ce-0e9e-486b-b672-85ac9ad4e2e8
+Superblock backups stored on blocks:
+        32768
+
+Allocating group tables: done
+Writing inode tables: done
+Writing superblocks and filesystem accounting information: done
+
+Creating media partition from 2048 to 104447
+mkfs.fat 4.1 (2017-01-24)
+
