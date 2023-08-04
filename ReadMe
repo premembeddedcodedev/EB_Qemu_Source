@@ -1,5 +1,62 @@
 Link : https://github.com/mhomran/u-boot-rpi3-b-plus
 
+1. Cross Compile installation - sudo apt-get install gcc-aarch64-linux-gnu 
+
+2. COmpile the u-boot and create u-boot.bin
+	git clone https://github.com/u-boot/u-boot --depth=1
+	make rpi_3_b_plus_defconfig ARCH=arm CROSS_COMPILE=aarch64-linux-gnu-
+	make menuconfig ARCH=arm CROSS_COMPILE=aarch64-linux-gnu-
+		Boot options->Save fdt address
+		Command Line Interafce->Shell Command
+		Boot options->Autoboot options->delay
+	issue:  There's an issue I found when I tried to build u-boot which is multiple definitions of the function save_boot_params. I could get over this by deleting the implementation in board/raspberrypi/rpi/lowlevel_init.S.
+	make -j12 ARCH=arm CROSS_COMPILE=aarch64-linux-gnu-
+	
+	
+3. Compile the kernel and create Image
+	git clone https://github.com/raspberrypi/linux --depth=1
+	make menuconfig ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
+	make bcmrpi3_defconfig ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
+	make -j12 dtbs ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
+		arch/arm64/boot/dts/broadcom/bcm2710-rpi-3-b-plus.dtb
+	make -j12 Image ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
+		arch/arm64/boot/Image
+	Note: for 64bit kernel, there's no option for making a compressed image e.g. zImage
+	
+4. load the bins with below commands:
+	fatload usb 0 ${kernel_addr_r} Image
+	setenv bootargs "8250.nr_uarts=1 root=/dev/sda2 rootwait console=ttyS0,115200n8"
+	booti ${kernel_addr_r} - ${prevbl_addr_r}
+	Note: Device tree entries are compiled with u-boot, so we are not doing here.
+
+5. Compile the filesystem and create Image 
+	git clone https://github.com/mirror/busybox
+	make menuconfig
+		settings->Build Static Binary
+		settings->Cross compiler prefix
+	make -j12
+	make install
+	mkdir _install/etc
+	mkdir _install/etc/init.d
+	vi _install/etc/init.d/rcS
+		#!/bin/sh
+
+		mount -t proc none /proc
+
+		mount -o remount,rw /
+
+		mount -t sysfs none /sys
+
+		echo /sbin/mdev > /proc/sys/kernel/hotplug
+
+		mdev -s
+	chmod +x _install/etc/init.d/rcS
+	mkdir _install/proc
+	mkdir _install/sys
+	mkdir _install/dev
+	cp -r _install/* /media/mhomran/rootfs
+	
+
 UEFI Compilation procedure:
   
   - https://github.com/pftf/RPi4
