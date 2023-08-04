@@ -1,0 +1,1 @@
+sudo -s ../../qemu_rpi4/qemu-patch-raspberry4/build/qemu-system-aarch64 -M raspi3b -cpu cortex-a72 -kernel ./ext/u-boot.bin -serial null -serial stdio -sd sd.img -m 1G -smp 4 -append "rw earlyprintk loglevel=8 console=ttyAMA0,115200 dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2 rootdelay=1 rootwait rootfstype=ext4" -device usb-net,netdev=net0 -netdev user,id=net0,hostfwd=tcp::5555-:22
