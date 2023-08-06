@@ -1,0 +1,7 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/vtemu/vtemu_font_10x18.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/vtemu/vtemu_font_10x18.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/vtemu_font.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h

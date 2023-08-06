@@ -1,0 +1,21 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/common/memcpy.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/common/memcpy.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_host_io.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_io.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_barrier.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_inline_asm.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_compiler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_defines.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_const.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_limits.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_modules.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/kallsyms.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/list.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_macros.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/mathlib.h

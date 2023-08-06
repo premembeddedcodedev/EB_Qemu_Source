@@ -1,0 +1,8 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/broadcom/bcm2838-rpi-4-b.dtb: /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/broadcom/bcm2838-rpi-4-b.dts
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/broadcom/bcm2838-rpi-4-b.dtb: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/broadcom/bcm2838-rpi-4-b.dts \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/broadcom/bcm2838.dtsi \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/drivers/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/drivers/include/dt-bindings/interrupt-controller/irq.h

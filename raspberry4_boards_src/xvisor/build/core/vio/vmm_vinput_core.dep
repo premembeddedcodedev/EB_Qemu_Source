@@ -1,0 +1,136 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/vmm_vinput.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/vmm_vinput.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_error.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_heap.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_mutex.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_waitqueue.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_stdio.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_compiler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stacktrace.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_spinlocks.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_cpu_irq.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_defines.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_const.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/include/arch_locks.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_scheduler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_manager.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_regs.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_cpumask.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/bitmap.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_macros.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/bitops.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_cache.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_cache.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/include/arch_atomic64.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/include/arch_atomic.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_limits.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_devtree.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/list.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/xref.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_shmem.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/rbtree.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_modules.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/kallsyms.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vio/vmm_vinput.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_notifier.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_semaphore.h
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/vmm_keymaps.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/vmm_keymaps.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_heap.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_stdio.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_compiler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stacktrace.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_modules.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/kallsyms.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/list.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_macros.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_limits.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vio/vmm_keymaps.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/modifiers.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/modifiers.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/modifiers.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/modifiers.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/common.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/common.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/common.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/common.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ar.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/ar.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ar.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ar.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/bepo.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/bepo.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/bepo.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/bepo.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/cz.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/cz.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/cz.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/cz.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/da.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/da.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/da.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/da.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de-ch.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/de-ch.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de-ch.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de-ch.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/de.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/de.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-gb.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/en-gb.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-gb.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-gb.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-us.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/en-us.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-us.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/en-us.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/es.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/es.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/es.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/es.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/et.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/et.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/et.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/et.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fi.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fi.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fi.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fi.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fo.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fo.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fo.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fo.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-be.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fr-be.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-be.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-be.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ca.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fr-ca.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ca.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ca.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ch.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fr-ch.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ch.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr-ch.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/fr.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/fr.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hr.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/hr.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hr.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hr.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hu.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/hu.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hu.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/hu.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/is.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/is.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/is.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/is.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/it.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/it.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/it.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/it.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ja.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/ja.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ja.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ja.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lt.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/lt.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lt.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lt.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lv.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/lv.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lv.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/lv.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/mk.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/mk.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/mk.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/mk.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl-be.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/nl-be.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl-be.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl-be.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/nl.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/nl.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/no.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/no.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/no.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/no.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pl.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/pl.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pl.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pl.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt-br.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/pt-br.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt-br.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt-br.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/pt.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/pt.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ru.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/ru.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ru.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/ru.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sl.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/sl.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sl.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sl.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sv.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/sv.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sv.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/sv.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/th.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/th.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/th.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/th.c
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/tr.c: /home/praveenv/sambashare/qemu_rpi4/xvisor/core/vio/keymaps/tr.data
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/tr.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/build/core/vio/keymaps/tr.c

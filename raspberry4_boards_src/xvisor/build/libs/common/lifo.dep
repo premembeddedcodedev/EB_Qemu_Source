@@ -1,0 +1,16 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/common/lifo.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/common/lifo.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_error.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_heap.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/lifo.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_spinlocks.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_cpu_irq.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_defines.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_const.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/include/arch_locks.h

@@ -1,0 +1,16 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/vtemu/vtemu_font.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/vtemu/vtemu_font.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_macros.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_compiler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_modules.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/kallsyms.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/list.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_limits.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/vtemu_font.h

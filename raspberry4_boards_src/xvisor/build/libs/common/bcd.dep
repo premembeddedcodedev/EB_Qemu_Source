@@ -1,0 +1,8 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/common/bcd.o: /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/common/bcd.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/mathlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/bcd.h

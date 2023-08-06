@@ -1,0 +1,276 @@
+Read start4.elf bytes  2241504 hnd 0x000135bc
+Read fixup4.dat bytes     5411 hnd 0x0001807d
+Firmware: b8a114e5a9877e91ca8f26d1a5ce904b2ad3cf13 Oct 29 2021 10:47:33
+0x00c03114 0x00000000 0x00000fff
+MEM GPU: 76 ARM: 948 TOTAL: 1024
+Starting start4.elf @ 0xfec00200 partition 0
+PCI reset
++
+
+MESS:00:00:04.037078:0: arasan: arasan_emmc_open
+MESS:00:00:04.198352:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:04.201036:0: brfs: File read: 60 bytes
+MESS:00:00:04.255676:0: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.265186:0: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.274700:0: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.284210:0: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.293724:0: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.303232:0: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.312747:0: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.322257:0: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.331771:0: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.341278:0: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.345783:0: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:04.371228:0: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.380739:0: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.390254:0: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.399762:0: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.409276:0: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.418786:0: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.428301:0: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.437809:0: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.447324:0: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.456834:0: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.461340:0: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:04.467397:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:05.559499:0: gpioman: gpioman_get_pin_num: pin DISPLAY_DSI_PORT not defined
+MESS:00:00:05.566800:0: *** Restart logging
+MESS:00:00:05.568223:0: brfs: File read: 60 bytes
+MESS:00:00:05.578134:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.588173:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.598206:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.608244:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.618274:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.628312:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.638345:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.648383:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.658413:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.668451:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.673475:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.684098:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.694137:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.704170:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.714208:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.724238:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.734275:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.744308:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.754346:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.764376:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.774414:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.779438:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.785036:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:05.798827:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.808859:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.818897:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.828930:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.838967:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.848997:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.859035:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.869068:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.879105:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.889135:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.894163:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:05.904785:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.914815:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.924853:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.934886:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.944924:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.954954:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.964992:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.975025:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.985064:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.995095:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:06.000124:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:06.005722:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:06.014487:0: HDMI0: hdmi_pixel_encoding: 300000000
+MESS:00:00:06.019954:0: HDMI1: hdmi_pixel_encoding: 300000000
+MESS:00:00:06.030159:0: dtb_file 'bcm2711-rpi-4-b.dtb'
+MESS:00:00:06.037405:0: brfs: File read: /mfs/sd/bcm2711-rpi-4-b.dtb
+MESS:00:00:06.040652:0: Loading 'bcm2711-rpi-4-b.dtb' to 0x100 size 0xc2a9
+MESS:00:00:06.060000:0: brfs: File read: 49833 bytes
+MESS:00:00:06.125505:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:06.139123:0: brfs: File read: 60 bytes
+MESS:00:00:06.141477:0: brfs: File read: /mfs/sd/cmdline.txt
+MESS:00:00:06.146123:0: Read command line from file 'cmdline.txt':
+MESS:00:00:06.151996:0: 'console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait earlycon=uart8250,mmio32,0xfe215040'
+MESS:00:00:06.268974:0: brfs: File read: 152 bytes
+MESS:00:00:06.320032:0: brfs: File read: /mfs/sd/u-boot.bin
+MESS:00:00:06.322503:0: Loading 'u-boot.bin' to 0x80000 size 0x98f60
+MESS:00:00:06.328588:0: Device tree loaded to 0x2eff3700 (size 0xc808)
+MESS:00:00:06.336580:0: uart: Set PL011 baud rate to 103448.300000 Hz
+MESS:00:00:06.343903:0: uart: Baud rate change done...
+MESS:00:00:06.345920:0:
+
+U-Boot 2023.10-rc1-00310-g9787da0d32 (Aug 06 2023 - 13:18:28 +0530)
+
+DRAM:  948 MiB (effective 3.9 GiB)
+RPI 4 Model B (0xc03114)
+Core:  205 devices, 16 uclasses, devicetree: board
+MMC:   mmcnr@7e300000: 1, mmc@7e340000: 0
+Loading Environment from FAT... Unable to read "uboot.env" from mmc0:1...
+In:    serial,usbkbd
+Out:   serial,vidconsole
+Err:   serial,vidconsole
+Net:   eth0: ethernet@7d580000
+PCIe BRCM: link up, 5.0 Gbps x1 (SSC)
+starting USB...
+Bus xhci_pci: Register 5000420 NbrPorts 5
+Starting the controller
+USB XHCI 1.00
+scanning bus xhci_pci for devices... 2 USB Device(s) found
+       scanning usb for storage devices... 0 Storage Device(s) found
+Hit any key to stop autoboot:  0
+U-Boot>
+U-Boot> setenv ipaddr 192.168.29.17
+U-Boot> setenv serverip 192.168.29.80
+U-Boot> tftpboot 0x200000 uvmm.bin
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'uvmm.bin'.
+Load address: 0x200000
+Loading: ##################################################  1.9 MiB
+         531.3 KiB/s
+done
+Bytes transferred = 1955808 (1dd7e0 hex)
+U-Boot> tftpboot 0x800000 bcm2838-rpi-4-b.dtb
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'bcm2838-rpi-4-b.dtb'.
+Load address: 0x800000
+Loading: ##################################################  1.9 KiB
+         7.8 KiB/s
+done
+Bytes transferred = 1972 (7b4 hex)
+U-Boot> tftpboot 0x2000000 udisk.img
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'udisk.img'.
+Load address: 0x2000000
+Loading: ##################################################  32 MiB
+         495.1 KiB/s
+done
+Bytes transferred = 33555520 (2000440 hex)
+U-Boot> bootm 0x200000 0x2000000 0x800000
+## Booting kernel from Legacy Image at 00200000 ...
+   Image Name:   Xvisor
+   Image Type:   AArch64 Linux Kernel Image (uncompressed)
+   Data Size:    1955744 Bytes = 1.9 MiB
+   Load Address: 00080000
+   Entry Point:  00080000
+   Verifying Checksum ... OK
+## Loading init Ramdisk from Legacy Image at 02000000 ...
+   Image Name:   Xvisor Ramdisk
+   Image Type:   AArch64 Linux RAMDisk Image (gzip compressed)
+   Data Size:    33555456 Bytes = 32 MiB
+   Load Address: 00000000
+   Entry Point:  00000000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 00800000
+   Booting using the fdt blob at 0x800000
+Working FDT set to 800000
+   Loading Kernel Image
+   Using Device Tree in place at 0000000000800000, end 00000000008037b3
+Working FDT set to 800000
+
+Starting kernel ...
+
+
+Xvisor v0.3.2-2-g1329959e (Aug  6 2023 17:48:53)
+
+INIT: host address space
+INIT: vapool: base=0x0000000010000000 size=67108864
+INIT: vapool: hkbase=0x0000000010303000 hksize=262144
+INIT: ram: bank0 phys=0x0000000000000000 size=994050048
+INIT: ram: bank0 hkbase=0x0000000010343000 hksize=30336
+INIT: ram: bank1 phys=0x0000000040000000 size=3154116608
+INIT: ram: bank1 hkbase=0x000000001034A680 hksize=96256
+INIT: ram_reserve: phys=0x0000000000080000 size=2109440
+INIT: ram_reserve: phys=0x0000000000383000 size=847872
+INIT: ram_reserve: phys=0x0000000000283000 size=1048576
+INIT: vapool_reserve: virt=0x0000000010000000 size=4005888
+INIT: ram_reserve: phys=0x0000000000000000 size=32768
+INIT: ram_reserve: phys=0x0000000002000000 size=33554432
+INIT: ram_reserve: phys=0x0000000000800000 size=8192
+INIT: heap management
+INIT: device tree
+INIT: device tree reserved-memory
+INIT: DMA heap management
+INIT: CPU nascent
+INIT: board nascent
+INIT: nascent funtions
+INIT: page pool
+INIT: exception table
+INIT: discover secondary CPUs
+INIT: per-CPU areas
+INIT: CPU hotplug
+INIT: host irq subsystem
+INIT: CPU early
+INIT: board early
+INIT: early funtions
+INIT: standard I/O
+INIT: clocksource manager
+INIT: clockchip manager
+INIT: hypervisor timer
+INIT: hypervisor soft delay
+INIT: hypervisor shared memory
+INIT: hypervisor manager
+INIT: synchronus inter-processor interrupts
+INIT: hypervisor scheduler
+INIT: asynchronus inter-processor interrupts
+INIT: hypervisor threads
+INIT: workqueue framework
+INIT: wallclock subsystem
+INIT: start secondary CPUs
+INIT: command manager
+INIT: device driver framework
+INIT: device emulation framework
+INIT: character device framework
+INIT: iommu framework
+INIT: hypervisor modules
+INFO: pinctrl core: initialized pinctrl subsystem
+vgic_v2: hctrl=0xff844000 vcpu=0xff846000
+vgic_v2: lr_cnt=4 maint_irq=25
+vgic: emulator available
+INIT: block device framework
+INIT: network switch framework
+INIT: network port framework
+initrd: RBD created at 0x2000040 - 0x4000440
+INIT: CPU final
+INIT: board final
+INIT: final functions
+INIT: CPU0 online
+INIT: CPU1 online
+INIT: CPU2 online
+INIT: CPU3 online
+INIT: brought-up 4 CPUs
+INIT: freeing init memory 80K
+INIT: change stdio device to uart_mu@fe215040
+INIT: bootcmd: vfs mount initrd /
+Trying: ext4
+Mounted initrd using ext4 at /
+INIT: bootcmd: vfs run /boot.xscript
+Created default shared memory
+guest0: Created
+guest0: Parsing /images/arm64/virt-v8/nor_flash.list
+guest0: Loading 0x0000000000000000 with file ./firmware.bin
+guest0: Loaded 0x0000000000000000 with 99616 bytes
+guest0: Loading 0x00000000000FF000 with file ./cmdlist
+Failed to open /cmdlist
+error -14
+INIT: bootcmd: vfs cat /system/banner.txt
+
+ooooooo  ooooo oooooo     oooo ooooo  .oooooo..o   .oooooo.   ooooooooo.
+ `8888    d8'   `888.     .8'  `888' d8P'    `Y8  d8P'  `Y8b  `888   `Y88.
+   Y888..8P      `888.   .8'    888  Y88bo.      888      888  888   .d88'
+    `8888'        `888. .8'     888    `Y8888o.  888      888  888ooo88P'
+   .8PY888.        `888.8'      888        `Y88b 888      888  888`88b.
+  d8'  `888b        `888'       888  oo     .d8P `88b    d88'  888  `88b.
+o888o  o88888o       `8'       o888o 8''88888P'   `Y8bood8P'  o888o  o888o
+
+
+XVisor# ls
+Error: unknown command ls
+XVisor#
+XVisor#
+XVisor#
+XVisor#

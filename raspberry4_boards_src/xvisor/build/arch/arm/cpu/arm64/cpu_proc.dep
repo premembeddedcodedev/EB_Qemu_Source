@@ -1,0 +1,6 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/cpu/arm64/cpu_proc.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/cpu_proc.S \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/cpu_defines.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_const.h

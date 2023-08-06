@@ -1,0 +1,13 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/libs/kallsyms/kallsyms.o: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/kallsyms/kallsyms.c \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_stdio.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_types.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_compiler.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stacktrace.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/stringlib.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/cpu/arm64/include/arch_config.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/ctype.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/libs/include/libs/kallsyms.h

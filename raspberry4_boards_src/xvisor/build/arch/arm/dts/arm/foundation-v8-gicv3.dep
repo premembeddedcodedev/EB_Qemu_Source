@@ -1,0 +1,8 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/arm/foundation-v8-gicv3.dtb: /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/arm/foundation-v8-gicv3.dts
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/arm/foundation-v8-gicv3.dtb: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/arm/foundation-v8-gicv3.dts \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/arm/foundation-v8.dtsi \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/drivers/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/drivers/include/dt-bindings/interrupt-controller/irq.h

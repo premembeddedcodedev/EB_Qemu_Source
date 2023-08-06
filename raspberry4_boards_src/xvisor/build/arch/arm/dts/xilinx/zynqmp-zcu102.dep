@@ -1,0 +1,6 @@
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/xilinx/zynqmp-zcu102.dtb: /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/xilinx/zynqmp-zcu102.dts
+/home/praveenv/sambashare/qemu_rpi4/xvisor/build/arch/arm/dts/xilinx/zynqmp-zcu102.dtb: \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/xilinx/zynqmp-zcu102.dts \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/build/openconf/openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/core/include/vmm_openconf.h \
+ /home/praveenv/sambashare/qemu_rpi4/xvisor/arch/arm/dts/xilinx/./zynqmp.dtsi

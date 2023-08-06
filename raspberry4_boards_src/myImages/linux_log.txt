@@ -1,0 +1,604 @@
+Read start4.elf bytes  2241504 hnd 0x000135bc
+Read fixup4.dat bytes     5411 hnd 0x0001807d
+Firmware: b8a114e5a9877e91ca8f26d1a5ce904b2ad3cf13 Oct 29 2021 10:47:33
+0x00c03114 0x00000000 0x00000fff
+MEM GPU: 76 ARM: 948 TOTAL: 1024
+Starting start4.elf @ 0xfec00200 partition 0
+PCI reset
++
+
+MESS:00:00:04.001992:0: arasan: arasan_emmc_open
+MESS:00:00:04.163055:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:04.165738:0: brfs: File read: 60 bytes
+MESS:00:00:04.220384:0: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.229894:0: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.239408:0: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.248918:0: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.258432:0: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.267939:0: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.277453:0: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.286963:0: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.296477:0: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.305985:0: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.310490:0: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:04.335921:0: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.345432:0: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.354946:0: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.364459:0: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.373973:0: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.383482:0: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.392996:0: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.402503:0: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.412018:0: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.421528:0: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.426033:0: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:04.432090:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:05.524499:0: gpioman: gpioman_get_pin_num: pin DISPLAY_DSI_PORT not defined
+MESS:00:00:05.531799:0: *** Restart logging
+MESS:00:00:05.533223:0: brfs: File read: 60 bytes
+MESS:00:00:05.543134:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.553173:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.563206:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.573244:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.583274:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.593312:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.603345:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.613383:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.623413:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.633451:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.638474:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.649098:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.659137:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.669170:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.679208:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.689239:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.699277:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.709310:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.719348:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.729379:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.739417:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.744441:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.750040:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:05.763830:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.773862:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.783900:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.793933:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.803971:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.814001:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.824038:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.834071:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.844109:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.854139:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.859168:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:05.869789:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.879820:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.889858:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.899891:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.909929:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.919959:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.929998:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.940031:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.950069:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.960100:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.965129:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:05.970726:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:05.979491:0: HDMI0: hdmi_pixel_encoding: 300000000
+MESS:00:00:05.984958:0: HDMI1: hdmi_pixel_encoding: 300000000
+MESS:00:00:05.995167:0: dtb_file 'bcm2711-rpi-4-b.dtb'
+MESS:00:00:06.002408:0: brfs: File read: /mfs/sd/bcm2711-rpi-4-b.dtb
+MESS:00:00:06.005655:0: Loading 'bcm2711-rpi-4-b.dtb' to 0x100 size 0xc2a9
+MESS:00:00:06.025001:0: brfs: File read: 49833 bytes
+MESS:00:00:06.090506:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:06.104125:0: brfs: File read: 60 bytes
+MESS:00:00:06.106476:0: brfs: File read: /mfs/sd/cmdline.txt
+MESS:00:00:06.111125:0: Read command line from file 'cmdline.txt':
+MESS:00:00:06.116998:0: 'console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait earlycon=uart8250,mmio32,0xfe215040'
+MESS:00:00:06.233973:0: brfs: File read: 152 bytes
+MESS:00:00:06.284300:0: brfs: File read: /mfs/sd/u-boot.bin
+MESS:00:00:06.286770:0: Loading 'u-boot.bin' to 0x80000 size 0x87e50
+MESS:00:00:06.292855:0: Device tree loaded to 0x2eff3700 (size 0xc808)
+MESS:00:00:06.300857:0: uart: Set PL011 baud rate to 103448.300000 Hz
+MESS:00:00:06.308170:0: uart: Baud rate change done...
+MESS:00:00:06.310187:0:
+
+U-Boot 2021.01-rc4-00029-gab865a8ee5 (Dec 28 2020 - 22:50:53 +0100)
+
+DRAM:  3.9 GiB
+RPI 4 Model B (0xc03114)
+MMC:   mmcnr@7e300000: 1, mmc@7e340000: 0
+Loading Environment from FAT... ** No partition table - mmc 0 **
+In:    serial
+Out:   serial
+Err:   serial
+Net:   eth0: ethernet@7d580000
+PCIe BRCM: link up, 5.0 Gbps x1 (SSC)
+starting USB...
+Bus xhci_pci: Register 5000420 NbrPorts 5
+Starting the controller
+USB XHCI 1.00
+scanning bus xhci_pci for devices... 2 USB Device(s) found
+       scanning usb for storage devices... 0 Storage Device(s) found
+Hit any key to stop autoboot:  0
+U-Boot>
+U-Boot>
+U-Boot> tftpboot ${kernel_addr_r} kernel8.img
+*** ERROR: `serverip' not set
+U-Boot>
+*** ERROR: `serverip' not set
+U-Boot>
+*** ERROR: `serverip' not set
+U-Boot> setenv ipaddr 192.168.29.17
+U-Boot> setenv serverip 192.168.29.80
+U-Boot> tftpboot ${kernel_addr_r} kernel8.img
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'kernel8.img'.
+Load address: 0x80000
+Loading: ##################################################  7.8 MiB
+         462.9 KiB/s
+done
+Bytes transferred = 8219600 (7d6bd0 hex)
+U-Boot> tftpboot ${fdt_addr_r} bcm2711-rpi-4-b.dtb
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'bcm2711-rpi-4-b.dtb'.
+Load address: 0x2600000
+Loading: ##################################################  51.4 KiB
+         190.4 KiB/s
+done
+Bytes transferred = 52593 (cd71 hex)
+U-Boot> setenv kernel_comp_addr_r 0x0A000000
+U-Boot> setenv kernel_comp_size 7921972
+U-Boot> booti ${kernel_addr_r} - ${fdt_addr}
+   Uncompressing Kernel Image
+Moving Image from 0x80000 to 0x200000, end=1870000
+## Flattened Device Tree blob at 2eff3700
+   Booting using the fdt blob at 0x2eff3700
+   Using Device Tree in place at 000000002eff3700, end 000000002f002f07
+
+Starting kernel ...
+
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+[    0.000000] Linux version 6.1.21-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023
+[    0.000000] random: crng init done
+[    0.000000] Machine model: Raspberry Pi 4 Model B Rev 1.4
+[    0.000000] earlycon: uart8250 at MMIO32 0x00000000fe215040 (options '')
+[    0.000000] printk: bootconsole [uart8250] enabled
+[    0.000000] efi: UEFI not found.
+[    0.000000] Reserved memory: created CMA memory pool at 0x000000002ac00000, size 64 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000000000000-0x000000003fffffff]
+[    0.000000]   DMA32    [mem 0x0000000040000000-0x00000000fbffffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000000000-0x000000003b3fffff]
+[    0.000000]   node   0: [mem 0x0000000040000000-0x00000000fbffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x00000000fbffffff]
+[    0.000000] On node 0, zone DMA32: 19456 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA32: 16384 pages in unavailable ranges
+[    0.000000] percpu: Embedded 29 pages/cpu s78504 r8192 d32088 u118784
+[    0.000000] Detected PIPT I-cache on CPU0
+[    0.000000] CPU features: detected: Spectre-v2
+[    0.000000] CPU features: detected: Spectre-v3a
+[    0.000000] CPU features: detected: Spectre-v4
+[    0.000000] CPU features: detected: Spectre-BHB
+[    0.000000] CPU features: kernel page table isolation forced ON by KASLR
+[    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] CPU features: detected: ARM erratum 1742098
+[    0.000000] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[    0.000000] alternatives: applying boot alternatives
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 996912
+[    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 bcm2708_fb.fbwidth=0 bcm2708_fb.fbheight=0 bcm2708_fb.fbswap=1 smsc95xx.macaddr=E4:5F:01:62:00:CA vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait earlycon=uart8250,mmio32,0xfe215040
+[    0.000000] Kernel parameter elevator= does not have any effect anymore.
+[    0.000000] Please use sysfs to set IO scheduler for individual devices.
+[    0.000000] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: area num 4.
+[    0.000000] software IO TLB: mapped [mem 0x0000000037400000-0x000000003b400000] (64MB)
+[    0.000000] Memory: 3815716K/4050944K available (11776K kernel code, 2106K rwdata, 3688K rodata, 4160K init, 1077K bss, 169692K reserved, 65536K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] ftrace: allocating 39744 entries in 156 pages
+[    0.000000] ftrace: allocated 156 pages with 4 groups
+[    0.000000] trace event string verifier disabled
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu:     RCU event tracing is enabled.
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+[    0.000000]  Trampoline variant of Tasks RCU enabled.
+[    0.000000]  Rude variant of Tasks RCU enabled.
+[    0.000000]  Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] Root IRQ handler: gic_handle_irq
+[    0.000000] GIC: Using split EOI/Deactivate mode
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] arch_timer: cp15 timer(s) running at 54.00MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+[    0.000001] sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+[    0.008428] Console: colour dummy device 80x25
+[    0.012956] printk: console [tty1] enabled
+[    0.017127] printk: bootconsole [uart8250] disabled
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+[    0.000000] Linux version 6.1.21-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023
+[    0.000000] random: crng init done
+[    0.000000] Machine model: Raspberry Pi 4 Model B Rev 1.4
+[    0.000000] earlycon: uart8250 at MMIO32 0x00000000fe215040 (options '')
+[    0.000000] printk: bootconsole [uart8250] enabled
+[    0.000000] efi: UEFI not found.
+[    0.000000] Reserved memory: created CMA memory pool at 0x000000002ac00000, size 64 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000000000000-0x000000003fffffff]
+[    0.000000]   DMA32    [mem 0x0000000040000000-0x00000000fbffffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000000000-0x000000003b3fffff]
+[    0.000000]   node   0: [mem 0x0000000040000000-0x00000000fbffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x00000000fbffffff]
+[    0.000000] On node 0, zone DMA32: 19456 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA32: 16384 pages in unavailable ranges
+[    0.000000] percpu: Embedded 29 pages/cpu s78504 r8192 d32088 u118784
+[    0.000000] Detected PIPT I-cache on CPU0
+[    0.000000] CPU features: detected: Spectre-v2
+[    0.000000] CPU features: detected: Spectre-v3a
+[    0.000000] CPU features: detected: Spectre-v4
+[    0.000000] CPU features: detected: Spectre-BHB
+[    0.000000] CPU features: kernel page table isolation forced ON by KASLR
+[    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] CPU features: detected: ARM erratum 1742098
+[    0.000000] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[    0.000000] alternatives: applying boot alternatives
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 996912
+[    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 bcm2708_fb.fbwidth=0 bcm2708_fb.fbheight=0 bcm2708_fb.fbswap=1 smsc95xx.macaddr=E4:5F:01:62:00:CA vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait earlycon=uart8250,mmio32,0xfe215040
+[    0.000000] Kernel parameter elevator= does not have any effect anymore.
+[    0.000000] Please use sysfs to set IO scheduler for individual devices.
+[    0.000000] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: area num 4.
+[    0.000000] software IO TLB: mapped [mem 0x0000000037400000-0x000000003b400000] (64MB)
+[    0.000000] Memory: 3815716K/4050944K available (11776K kernel code, 2106K rwdata, 3688K rodata, 4160K init, 1077K bss, 169692K reserved, 65536K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] ftrace: allocating 39744 entries in 156 pages
+[    0.000000] ftrace: allocated 156 pages with 4 groups
+[    0.000000] trace event string verifier disabled
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu:     RCU event tracing is enabled.
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+[    0.000000]  Trampoline variant of Tasks RCU enabled.
+[    0.000000]  Rude variant of Tasks RCU enabled.
+[    0.000000]  Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] Root IRQ handler: gic_handle_irq
+[    0.000000] GIC: Using split EOI/Deactivate mode
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] arch_timer: cp15 timer(s) running at 54.00MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+[    0.000001] sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+[    0.008428] Console: colour dummy device 80x25
+[    0.012956] printk: console [tty1] enabled
+[    0.017127] printk: bootconsole [uart8250] disabled
+[    0.022141] Calibrating delay loop (skipped), value calculated using timer frequency.. 108.00 BogoMIPS (lpj=216000)
+[    0.022181] pid_max: default: 32768 minimum: 301
+[    0.022320] LSM: Security Framework initializing
+[    0.022528] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.022598] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.023864] cgroup: Disabling memory control group subsystem
+[    0.024540] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    0.025953] cblist_init_generic: Setting adjustable number of callback queues.
+[    0.025981] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    0.026207] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    0.026392] cblist_init_generic: Setting shift to 2 and lim to 1.
+[    0.026834] rcu: Hierarchical SRCU implementation.
+[    0.026856] rcu:     Max phase no-delay instances is 1000.
+[    0.028149] EFI services will not be available.
+[    0.028668] smp: Bringing up secondary CPUs ...
+[    0.029718] Detected PIPT I-cache on CPU1
+[    0.029818] cacheinfo: Unable to detect cache hierarchy for CPU 1
+[    0.029866] CPU1: Booted secondary processor 0x0000000001 [0x410fd083]
+[    0.031067] Detected PIPT I-cache on CPU2
+[    0.031155] cacheinfo: Unable to detect cache hierarchy for CPU 2
+[    0.031184] CPU2: Booted secondary processor 0x0000000002 [0x410fd083]
+[    0.032276] Detected PIPT I-cache on CPU3
+[    0.032367] cacheinfo: Unable to detect cache hierarchy for CPU 3
+[    0.032396] CPU3: Booted secondary processor 0x0000000003 [0x410fd083]
+[    0.032541] smp: Brought up 1 node, 4 CPUs
+[    0.032656] SMP: Total of 4 processors activated.
+[    0.032677] CPU features: detected: 32-bit EL0 Support
+[    0.032695] CPU features: detected: 32-bit EL1 Support
+[    0.032717] CPU features: detected: CRC32 instructions
+[    0.032857] CPU: All CPU(s) started at EL2
+[    0.032892] alternatives: applying system-wide alternatives
+[    0.034720] devtmpfs: initialized
+[    0.046091] Enabled cp15_barrier support
+[    0.046154] Enabled setend support
+[    0.046420] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.046472] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    0.048089] pinctrl core: initialized pinctrl subsystem
+[    0.048976] DMI not present or invalid.
+[    0.049672] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.053197] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+[    0.053515] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.054499] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.054608] audit: initializing netlink subsys (disabled)
+[    0.054878] audit: type=2000 audit(0.048:1): state=initialized audit_enabled=0 res=1
+[    0.055468] thermal_sys: Registered thermal governor 'step_wise'
+[    0.055557] cpuidle: using governor menu
+[    0.055961] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.056170] ASID allocator initialised with 32768 entries
+[    0.056344] Serial: AMBA PL011 UART driver
+[    0.067389] bcm2835-mbox fe00b880.mailbox: mailbox enabled
+[    0.082391] raspberrypi-firmware soc:firmware: Attached to firmware from 2021-10-29T10:47:33, variant start
+[    0.086406] raspberrypi-firmware soc:firmware: Firmware hash is b8a114e5a9877e91ca8f26d1a5ce904b2ad3cf13
+[    0.101904] KASLR enabled
+[    0.135071] bcm2835-dma fe007000.dma: DMA legacy API manager, dmachans=0x1
+[    0.139869] SCSI subsystem initialized
+[    0.140119] usbcore: registered new interface driver usbfs
+[    0.140191] usbcore: registered new interface driver hub
+[    0.140269] usbcore: registered new device driver usb
+[    0.140657] usb_phy_generic phy: supply vcc not found, using dummy regulator
+[    0.140858] usb_phy_generic phy: dummy supplies not allowed for exclusive requests
+[    0.141215] pps_core: LinuxPPS API ver. 1 registered
+[    0.141240] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.141280] PTP clock support registered
+[    0.142402] vgaarb: loaded
+[    0.143215] clocksource: Switched to clocksource arch_sys_counter
+[    0.143772] VFS: Disk quotas dquot_6.6.0
+[    0.143866] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.144059] FS-Cache: Loaded
+[    0.144255] CacheFiles: Loaded
+[    0.155181] NET: Registered PF_INET protocol family
+[    0.155834] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    0.160542] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[    0.160720] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.160765] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.160992] TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+[    0.162010] TCP: Hash tables configured (established 32768 bind 32768)
+[    0.162255] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.162352] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.162672] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.163504] RPC: Registered named UNIX socket transport module.
+[    0.163539] RPC: Registered udp transport module.
+[    0.163558] RPC: Registered tcp transport module.
+[    0.163577] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.163610] PCI: CLS 0 bytes, default 64
+[    0.166158] hw perfevents: enabled with armv8_cortex_a72 PMU driver, 7 counters available
+[    0.166556] kvm [1]: IPA Size Limit: 44 bits
+[    0.167923] kvm [1]: vgic interrupt IRQ9
+[    0.168175] kvm [1]: Hyp mode initialized successfully
+[    1.309399] Initialise system trusted keyrings
+[    1.309868] workingset: timestamp_bits=46 max_order=20 bucket_order=0
+[    1.317489] zbud: loaded
+[    1.320455] NFS: Registering the id_resolver key type
+[    1.320519] Key type id_resolver registered
+[    1.320540] Key type id_legacy registered
+[    1.320663] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    1.320692] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[    1.322102] Key type asymmetric registered
+[    1.322133] Asymmetric key parser 'x509' registered
+[    1.322230] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[    1.322519] io scheduler mq-deadline registered
+[    1.322547] io scheduler kyber registered
+[    1.331016] brcm-pcie fd500000.pcie: host bridge /scb/pcie@7d500000 ranges:
+[    1.331084] brcm-pcie fd500000.pcie:   No bus range found for /scb/pcie@7d500000, using [bus 00-ff]
+[    1.331188] brcm-pcie fd500000.pcie:      MEM 0x0600000000..0x063fffffff -> 0x00c0000000
+[    1.331409] brcm-pcie fd500000.pcie:   IB MEM 0x0000000000..0x00ffffffff -> 0x0400000000
+[    1.332459] brcm-pcie fd500000.pcie: PCI host bridge to bus 0000:00
+[    1.332493] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    1.332521] pci_bus 0000:00: root bus resource [mem 0x600000000-0x63fffffff] (bus address [0xc0000000-0xffffffff])
+[    1.332609] pci 0000:00:00.0: [14e4:2711] type 01 class 0x060400
+[    1.332874] pci 0000:00:00.0: PME# supported from D0 D3hot
+[    1.336776] pci_bus 0000:01: supply vpcie3v3 not found, using dummy regulator
+[    1.336984] pci_bus 0000:01: supply vpcie3v3aux not found, using dummy regulator
+[    1.337116] pci_bus 0000:01: supply vpcie12v not found, using dummy regulator
+[    1.401309] brcm-pcie fd500000.pcie: link up, 5.0 GT/s PCIe x1 (SSC)
+[    1.401487] pci 0000:01:00.0: [1106:3483] type 00 class 0x0c0330
+[    1.401625] pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00000fff 64bit]
+[    1.402113] pci 0000:01:00.0: PME# supported from D0 D3hot
+[    1.402860] pci 0000:00:00.0: BAR 8: assigned [mem 0x600000000-0x6000fffff]
+[    1.402900] pci 0000:01:00.0: BAR 0: assigned [mem 0x600000000-0x600000fff 64bit]
+[    1.402956] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    1.402988] pci 0000:00:00.0:   bridge window [mem 0x600000000-0x6000fffff]
+[    1.403910] bcm2708_fb soc:fb: Unable to determine number of FBs. Disabling driver.
+[    1.403943] bcm2708_fb: probe of soc:fb failed with error -2
+[    1.409105] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+[    1.411963] iproc-rng200 fe104000.rng: hwrng registered
+[    1.412483] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+[    1.413432] gpiomem-bcm2835 fe200000.gpiomem: Initialised: Registers at 0xfe200000
+[    1.413881] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    1.425638] brd: module loaded
+[    1.434308] loop: module loaded
+[    1.435073] Loading iSCSI transport class v2.0-870.
+[    1.440283] bcmgenet fd580000.ethernet: GENET 5.0 EPHY: 0x0000
+[    1.499367] unimac-mdio unimac-mdio.-19: Broadcom UniMAC MDIO bus
+[    1.500523] usbcore: registered new interface driver r8152
+[    1.500613] usbcore: registered new interface driver lan78xx
+[    1.500686] usbcore: registered new interface driver smsc95xx
+[    1.546607] pci 0000:00:00.0: enabling device (0000 -> 0002)
+[    1.546795] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    1.546838] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+[    1.547596] xhci_hcd 0000:01:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0001e40000000890
+[    1.548662] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    1.548697] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+[    1.548732] xhci_hcd 0000:01:00.0: Host supports USB 3.0 SuperSpeed
+[    1.549148] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[    1.549185] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.549213] usb usb1: Product: xHCI Host Controller
+[    1.549235] usb usb1: Manufacturer: Linux 6.1.21-v8+ xhci-hcd
+[    1.549257] usb usb1: SerialNumber: 0000:01:00.0
+[    1.550022] hub 1-0:1.0: USB hub found
+[    1.550100] hub 1-0:1.0: 1 port detected
+[    1.551037] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[    1.551073] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.551101] usb usb2: Product: xHCI Host Controller
+[    1.551122] usb usb2: Manufacturer: Linux 6.1.21-v8+ xhci-hcd
+[    1.551145] usb usb2: SerialNumber: 0000:01:00.0
+[    1.551915] hub 2-0:1.0: USB hub found
+[    1.552022] hub 2-0:1.0: 4 ports detected
+[    1.553679] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    1.554591] usbcore: registered new interface driver uas
+[    1.554709] usbcore: registered new interface driver usb-storage
+[    1.554948] mousedev: PS/2 mouse device common for all mice
+[    1.556328] thermal_sys: Failed to find 'trips' node
+[    1.556354] thermal_sys: Failed to find trip points for thermal id=0
+[    1.556383] bcm2711_thermal fd5d2000.avs-monitor:thermal: error -EINVAL: could not register sensor: -22
+[    1.556415] bcm2711_thermal: probe of fd5d2000.avs-monitor:thermal failed with error -22
+[    1.560459] sdhci: Secure Digital Host Controller Interface driver
+[    1.560492] sdhci: Copyright(c) Pierre Ossman
+[    1.561060] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.564406] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.564838] hid: raw HID events driver (C) Jiri Kosina
+[    1.565018] usbcore: registered new interface driver usbhid
+[    1.565042] usbhid: USB HID core driver
+[    1.573085] NET: Registered PF_PACKET protocol family
+[    1.573244] Key type dns_resolver registered
+[    1.574588] registered taskstats version 1
+[    1.574680] Loading compiled-in X.509 certificates
+[    1.575749] Key type .fscrypt registered
+[    1.575778] Key type fscrypt-provisioning registered
+[    1.590549] uart-pl011 fe201000.serial: there is not valid maps for state default
+[    1.591313] uart-pl011 fe201000.serial: cts_event_workaround enabled
+[    1.591488] fe201000.serial: ttyAMA0 at MMIO 0xfe201000 (irq = 35, base_baud = 0) is a PL011 rev2
+[    1.597628] bcm2835-aux-uart fe215040.serial: there is not valid maps for state default
+[    1.598453] printk: console [ttyS0] disabled
+[    1.598580] fe215040.serial: ttyS0 at MMIO 0xfe215040 (irq = 36, base_baud = 62500000) is a 16550
+[    1.803252] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    1.826794] printk: console [ttyS0] enabled
+[    1.989857] usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.21
+[    1.997655] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+[    2.004598] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.009268] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+[    2.012971] usb 1-1: Product: USB2.0 Hub
+[    2.014279] mmc-bcm2835 fe300000.mmcnr: mmc_debug:0 mmc_debug2:0
+[    2.020107] hub 1-1:1.0: USB hub found
+[    2.028592] mmc-bcm2835 fe300000.mmcnr: DMA channel allocated
+[    2.061973] of_cfs_init
+[    2.067109] hub 1-1:1.0: 4 ports detected
+[    2.074312] of_cfs_init: OK
+[    2.128338] mmc0: SDHCI controller on fe340000.mmc [fe340000.mmc] using ADMA
+[    2.213417] mmc1: new high speed SDIO card at address 0001
+[    2.320528] mmc0: new ultra high speed DDR50 SDHC card at address aaaa
+[    3.207348] mmcblk0: mmc0:aaaa SD32G 29.7 GiB
+[    3.215264]  mmcblk0: p1 p2
+[    3.218642] mmcblk0: mmc0:aaaa SD32G 29.7 GiB (quirks 0x00004000)
+[    3.235563] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+[    3.243050] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+[    3.336798] EXT4-fs (mmcblk0p2): recovery complete
+[    3.343652] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Quota mode: none.
+[    3.352427] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    3.360105] devtmpfs: mounted
+[    3.371012] Freeing unused kernel memory: 4160K
+[    3.375845] Run /sbin/init as init process
+[    3.761798] systemd[1]: System time before build time, advancing clock.
+[    3.826186] systemd[1]: systemd 241 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+[    3.848974] systemd[1]: Detected architecture arm64.
+[    3.896096] systemd[1]: Set hostname to <raspberrypi>.
+[    4.630193] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[    4.641280] systemd[1]: Created slice system-serial\x2dgetty.slice.
+[    4.648245] systemd[1]: Reached target Swap.
+[    4.654092] systemd[1]: Listening on Journal Socket.
+[    4.684289] systemd[1]: Starting Load Kernel Modules...
+[    4.696316] systemd[1]: Starting Restore / save the current clock...
+[    4.710261] systemd[1]: Starting Set the console keyboard layout...
+[  OK  ] Started Show Plymouth Boot Screen.
+[  OK  ] Reached target Local Encrypted Volumes.
+[  OK  ] Started Forward Password R…s to Plymouth Directory Watch.
+[  OK  ] Found device /dev/ttyS0.
+[  OK  ] Found device /dev/disk/by-partuuid/3f440712-01.
+         Starting File System Check…isk/by-partuuid/3f440712-01...
+[  OK  ] Started File System Check …/disk/by-partuuid/3f440712-01.
+         Mounting /boot...
+[  OK  ] Mounted /boot.
+[  OK  ] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+         Starting Set console font and keymap...
+         Starting Raise network interfaces...
+         Starting Preprocess NFS configuration...
+         Starting Tell Plymouth To Write Out Runtime Data...
+[  OK  ] Started Set console font and keymap.
+[  OK  ] Started Preprocess NFS configuration.
+[  OK  ] Started Tell Plymouth To Write Out Runtime Data.
+[  OK  ] Reached target NFS client services.
+[  OK  ] Reached target Remote File Systems (Pre).
+[  OK  ] Reached target Remote File Systems.
+[  OK  ] Started Create Volatile Files and Directories.
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Started Raise network interfaces.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started CUPS Scheduler.
+[  OK  ] Reached target Paths.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Listening on CUPS Scheduler.
+[  OK  ] Listening on triggerhappy.socket.
+[  OK  ] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+         Starting LSB: Switch to on…nless shift key is pressed)...
+         Starting rng-tools.service...
+[  OK  ] Started CUPS Scheduler.
+         Starting Check for Raspberry Pi EEPROM updates...
+         Starting Login Service...
+         Starting dphys-swapfile - …unt, and delete a swap file...
+         Starting Disk Manager...
+         Starting Configure Bluetooth Modems connected by UART...
+         Starting triggerhappy global hotkey daemon...
+         Starting Check for v3d driver...
+         Starting dhcpcd on all interfaces...
+[  OK  ] Started Regular background program processing daemon.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting System Logging Service...
+[  OK  ] Started D-Bus System Message Bus.
+         Starting WPA supplicant...
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Started Daily man-db regeneration.
+[  OK  ] Started Daily rotation of log files.
+[  OK  ] Started Daily apt download activities.
+[  OK  ] Started Daily apt upgrade and clean activities.
+[  OK  ] Reached target Timers.
+[  OK  ] Started triggerhappy global hotkey daemon.
+[  OK  ] Started rng-tools.service.
+[  OK  ] Started Login Service.
+[  OK  ] Started System Logging Service.
+[  OK  ] Started Check for v3d driver.
+[  OK  ] Started dhcpcd on all interfaces.
+[  OK  ] Started dphys-swapfile - s…mount, and delete a swap file.
+[  OK  ] Started Avahi mDNS/DNS-SD Stack.
+[  OK  ] Started WPA supplicant.
+[  OK  ] Started LSB: Switch to ond…(unless shift key is pressed).
+         Starting Authorization Manager...
+[  OK  ] Started Make remote CUPS printers available locally.
+[  OK  ] Reached target Network.
+[  OK  ] Started VNC Server in Service Mode daemon.
+         Starting OpenBSD Secure Shell server...
+         Starting /etc/rc.local Compatibility...
+         Starting Permit User Sessions...
+[  OK  ] Started /etc/rc.local Compatibility.
+[  OK  ] Started Permit User Sessions.
+         Starting Light Display Manager...
+         Starting Hold until boot process finishes up...
+[  OK  ] Started Check for Raspberry Pi EEPROM updates.
+[  OK  ] Started OpenBSD Secure Shell server.
+[  OK  ] Started Authorization Manager.
+
+Raspbian GNU/Linux 10 raspberrypi ttyS0
+
+raspberrypi login: root
+Password:
+
+Login incorrect
+raspberrypi login: raspberry
+Password:
+
+Login incorrect
+raspberrypi login:
+
