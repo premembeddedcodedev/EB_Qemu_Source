@@ -1,0 +1,704 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read start4.elf bytes  2241504 hnd 0x000135bc
+Read fixup4.dat bytes     5411 hnd 0x0001807d
+Firmware: b8a114e5a9877e91ca8f26d1a5ce904b2ad3cf13 Oct 29 2021 10:47:33
+0x00c03114 0x00000000 0x00000fff
+MEM GPU: 76 ARM: 948 TOTAL: 1024
+Starting start4.elf @ 0xfec00200 partition 0
+PCI reset
++
+
+MESS:00:00:04.002881:0: arasan: arasan_emmc_open
+MESS:00:00:04.163803:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:04.166486:0: brfs: File read: 60 bytes
+MESS:00:00:04.221134:0: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.230644:0: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.240158:0: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.249668:0: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.259182:0: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.268690:0: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.278204:0: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.287714:0: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.297228:0: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.306735:0: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.311240:0: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:04.336691:0: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:04.346202:0: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:04.355716:0: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:04.365223:0: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:04.374738:0: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:04.384248:0: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:04.393762:0: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:04.403269:0: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:04.412783:0: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:04.422293:0: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:04.426799:0: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:04.432856:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:05.524255:0: gpioman: gpioman_get_pin_num: pin DISPLAY_DSI_PORT not defined
+MESS:00:00:05.531555:0: *** Restart logging
+MESS:00:00:05.532979:0: brfs: File read: 60 bytes
+MESS:00:00:05.542887:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.552927:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.562960:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.572998:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.583028:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.593066:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.603099:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.613136:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.623166:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.633204:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.638228:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.648851:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.658889:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.668922:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.678960:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.688991:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.699029:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.709062:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.719100:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.729130:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.739168:0: hdmi: HDMI0:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.744192:0: hdmi: HDMI0:EDID giving up on reading EDID block 0
+MESS:00:00:05.749790:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:05.763580:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.773612:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.783650:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.793683:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.803721:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.813752:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.823790:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.833823:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.843860:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.853890:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.858919:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:05.869540:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 0
+MESS:00:00:05.879571:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 1
+MESS:00:00:05.889609:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 2
+MESS:00:00:05.899642:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 3
+MESS:00:00:05.909680:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 4
+MESS:00:00:05.919711:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 5
+MESS:00:00:05.929749:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 6
+MESS:00:00:05.939782:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 7
+MESS:00:00:05.949820:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 8
+MESS:00:00:05.959850:0: hdmi: HDMI1:EDID error reading EDID block 0 attempt 9
+MESS:00:00:05.964879:0: hdmi: HDMI1:EDID giving up on reading EDID block 0
+MESS:00:00:05.970477:0: hdmi: HDMI:hdmi_get_state is deprecated, use hdmi_get_display_state instead
+MESS:00:00:05.979242:0: HDMI0: hdmi_pixel_encoding: 300000000
+MESS:00:00:05.984709:0: HDMI1: hdmi_pixel_encoding: 300000000
+MESS:00:00:05.994926:0: dtb_file 'bcm2711-rpi-4-b.dtb'
+MESS:00:00:06.002168:0: brfs: File read: /mfs/sd/bcm2711-rpi-4-b.dtb
+MESS:00:00:06.005415:0: Loading 'bcm2711-rpi-4-b.dtb' to 0x100 size 0xc2a9
+MESS:00:00:06.024762:0: brfs: File read: 49833 bytes
+MESS:00:00:06.090331:0: brfs: File read: /mfs/sd/config.txt
+MESS:00:00:06.103950:0: brfs: File read: 60 bytes
+MESS:00:00:06.106299:0: brfs: File read: /mfs/sd/cmdline.txt
+MESS:00:00:06.110951:0: Read command line from file 'cmdline.txt':
+MESS:00:00:06.116824:0: 'console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait earlycon=uart8250,mmio32,0xfe215040'
+MESS:00:00:06.233686:0: brfs: File read: 152 bytes
+MESS:00:00:06.285499:0: brfs: File read: /mfs/sd/u-boot.bin
+MESS:00:00:06.287970:0: Loading 'u-boot.bin' to 0x80000 size 0x98f60
+MESS:00:00:06.294055:0: Device tree loaded to 0x2eff3700 (size 0xc808)
+MESS:00:00:06.302038:0: uart: Set PL011 baud rate to 103448.300000 Hz
+MESS:00:00:06.309369:0: uart: Baud rate change done...
+MESS:00:00:06.311387:0:
+
+U-Boot 2023.10-rc1-00310-g9787da0d32 (Aug 06 2023 - 13:18:28 +0530)
+
+DRAM:  948 MiB (effective 3.9 GiB)
+RPI 4 Model B (0xc03114)
+Core:  205 devices, 16 uclasses, devicetree: board
+MMC:   mmcnr@7e300000: 1, mmc@7e340000: 0
+Loading Environment from FAT... Unable to read "uboot.env" from mmc0:1...
+In:    serial,usbkbd
+Out:   serial,vidconsole
+Err:   serial,vidconsole
+Net:   eth0: ethernet@7d580000
+PCIe BRCM: link up, 5.0 Gbps x1 (SSC)
+starting USB...
+Bus xhci_pci: Register 5000420 NbrPorts 5
+Starting the controller
+USB XHCI 1.00
+scanning bus xhci_pci for devices... 2 USB Device(s) found
+       scanning usb for storage devices... 0 Storage Device(s) found
+Hit any key to stop autoboot:  0
+U-Boot> setenv ipaddr 192.168.29.17
+U-Boot> setenv serverip 192.168.29.80
+U-Boot> tftpboot 0x200000 uvmm.bin
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.80; our IP address is 192.168.29.17
+Filename 'uvmm.bin'.
+Load address: 0x200000
+Loading: *
+ARP Retry count exceeded; starting again
+U-Boot> setenv serverip 192.168.29.31
+U-Boot> tftpboot 0x200000 uvmm.bin
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.31; our IP address is 192.168.29.17
+Filename 'uvmm.bin'.
+Load address: 0x200000
+Loading: ##################################################  1.9 MiB
+         763.7 KiB/s
+done
+Bytes transferred = 1955808 (1dd7e0 hex)
+U-Boot> tftpboot 0x800000 bcm2838-rpi-4-b.dtb
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.31; our IP address is 192.168.29.17
+Filename 'bcm2838-rpi-4-b.dtb'.
+Load address: 0x800000
+Loading: ##################################################  1.9 KiB
+         10.7 KiB/s
+done
+Bytes transferred = 1972 (7b4 hex)
+U-Boot> tftpboot 0x2000000 udisk.img
+Using ethernet@7d580000 device
+TFTP from server 192.168.29.31; our IP address is 192.168.29.17
+Filename 'udisk.img'.
+Load address: 0x2000000
+Loading: ##################################################  32 MiB
+         700.2 KiB/s
+done
+Bytes transferred = 33555520 (2000440 hex)
+U-Boot> bootm 0x200000 0x2000000 0x800000
+## Booting kernel from Legacy Image at 00200000 ...
+   Image Name:   Xvisor
+   Image Type:   AArch64 Linux Kernel Image (uncompressed)
+   Data Size:    1955744 Bytes = 1.9 MiB
+   Load Address: 00080000
+   Entry Point:  00080000
+   Verifying Checksum ... OK
+## Loading init Ramdisk from Legacy Image at 02000000 ...
+   Image Name:   Xvisor Ramdisk
+   Image Type:   AArch64 Linux RAMDisk Image (gzip compressed)
+   Data Size:    33555456 Bytes = 32 MiB
+   Load Address: 00000000
+   Entry Point:  00000000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 00800000
+   Booting using the fdt blob at 0x800000
+Working FDT set to 800000
+   Loading Kernel Image
+   Using Device Tree in place at 0000000000800000, end 00000000008037b3
+Working FDT set to 800000
+
+Starting kernel ...
+
+
+Xvisor v0.3.2-2-g1329959e (Aug  8 2023 09:50:21)
+
+INIT: host address space
+INIT: vapool: base=0x0000000010000000 size=67108864
+INIT: vapool: hkbase=0x0000000010303000 hksize=262144
+INIT: ram: bank0 phys=0x0000000000000000 size=994050048
+INIT: ram: bank0 hkbase=0x0000000010343000 hksize=30336
+INIT: ram: bank1 phys=0x0000000040000000 size=3154116608
+INIT: ram: bank1 hkbase=0x000000001034A680 hksize=96256
+INIT: ram_reserve: phys=0x0000000000080000 size=2109440
+INIT: ram_reserve: phys=0x0000000000383000 size=847872
+INIT: ram_reserve: phys=0x0000000000283000 size=1048576
+INIT: vapool_reserve: virt=0x0000000010000000 size=4005888
+INIT: ram_reserve: phys=0x0000000000000000 size=32768
+INIT: ram_reserve: phys=0x0000000002000000 size=33554432
+INIT: ram_reserve: phys=0x0000000000800000 size=8192
+INIT: heap management
+INIT: device tree
+INIT: device tree reserved-memory
+INIT: DMA heap management
+INIT: CPU nascent
+INIT: board nascent
+INIT: nascent funtions
+INIT: page pool
+INIT: exception table
+INIT: discover secondary CPUs
+INIT: per-CPU areas
+INIT: CPU hotplug
+INIT: host irq subsystem
+INIT: CPU early
+INIT: board early
+INIT: early funtions
+INIT: standard I/O
+INIT: clocksource manager
+INIT: clockchip manager
+INIT: hypervisor timer
+INIT: hypervisor soft delay
+INIT: hypervisor shared memory
+INIT: hypervisor manager
+INIT: synchronus inter-processor interrupts
+INIT: hypervisor scheduler
+INIT: asynchronus inter-processor interrupts
+INIT: hypervisor threads
+INIT: workqueue framework
+INIT: wallclock subsystem
+INIT: start secondary CPUs
+INIT: command manager
+INIT: device driver framework
+INIT: device emulation framework
+INIT: character device framework
+INIT: iommu framework
+INIT: hypervisor modules
+INFO: pinctrl core: initialized pinctrl subsystem
+vgic_v2: hctrl=0xff844000 vcpu=0xff846000
+vgic_v2: lr_cnt=4 maint_irq=25
+vgic: emulator available
+INIT: block device framework
+INIT: network switch framework
+INIT: network port framework
+initrd: RBD created at 0x2000040 - 0x4000440
+INIT: CPU final
+INIT: board final
+INIT: final functions
+INIT: CPU0 online
+INIT: CPU1 online
+INIT: CPU2 online
+INIT: CPU3 online
+INIT: brought-up 4 CPUs
+INIT: freeing init memory 80K
+INIT: change stdio device to uart_mu@fe215040
+INIT: bootcmd: vfs mount initrd /
+Trying: ext4
+Mounted initrd using ext4 at /
+INIT: bootcmd: vfs run /boot.xscript
+Created default shared memory
+guest0: Created
+guest0: Parsing /images/arm64/virt-v8/nor_flash.list
+guest0: Loading 0x0000000000000000 with file ./firmware.bin
+guest0: Loaded 0x0000000000000000 with 99616 bytes
+guest0: Loading 0x00000000000FF000 with file ./cmdlist
+guest0: Loaded 0x00000000000FF000 with 167 bytes
+guest0: Loading 0x0000000000100000 with file ./Image
+guest0: Loaded 0x0000000000100000 with 22608384 bytes
+guest0: Loading 0x00000000017F0000 with file ./virt-v8.dtb
+guest0: Loaded 0x00000000017F0000 with 2921 bytes
+guest0: Loading 0x0000000001800000 with file ./rootfs.img
+guest0: Loaded 0x0000000001800000 with 1871360 bytes
+INIT: bootcmd: vfs cat /system/banner.txt
+
+ooooooo  ooooo oooooo     oooo ooooo  .oooooo..o   .oooooo.   ooooooooo.
+ `8888    d8'   `888.     .8'  `888' d8P'    `Y8  d8P'  `Y8b  `888   `Y88.
+   Y888..8P      `888.   .8'    888  Y88bo.      888      888  888   .d88'
+    `8888'        `888. .8'     888    `Y8888o.  888      888  888ooo88P'
+   .8PY888.        `888.8'      888        `Y88b 888      888  888`88b.
+  d8'  `888b        `888'       888  oo     .d8P `88b    d88'  888  `88b.
+o888o  o88888o       `8'       o888o 8''88888P'   `Y8bood8P'  o888o  o888o
+
+
+XVisor#
+XVisor#
+XVisor#
+XVisor# gurst list
+Error: unknown command gurst
+XVisor# guest list
+-------------------------------------------------------------------------------
+ ID     Name              Endianness    Device Path
+-------------------------------------------------------------------------------
+ 0      guest0            little        /guests/guest0
+-------------------------------------------------------------------------------
+XVisor#
+XVisor#
+XVisor# help
+help         - displays list of all commands
+vsdaemon     - commands for vserial daemons
+net          - network commands
+i2c          - control commands for i2c devices
+rbd          - ram backed block device commands
+fb           - frame buffer commands
+gpio         - Interact with GPIOs
+input        - input device commands
+clk          - clk commands
+vscreen      - virtual screen commands
+vinput       - virtual input device commands
+vdisplay     - virtual display commands
+vdisk        - virtual disk commands
+vmsg         - virtual messaging commands
+module       - module related commands
+wallclock    - wall-clock commands
+heap         - show heap status
+stdio        - standard I/O configuration
+chardev      - character device commands
+thread       - control commands for threads
+shmem        - shared memory commands
+memory       - memory manipulation commands
+guest        - control commands for guest
+vcpu         - control commands for vcpu
+devtree      - traverse the device tree
+iommu        - iommu commands
+host         - host information
+shutdown     - shutdown hypervisor
+reset        - reset hypervisor
+echo         - Echo given message on standard output
+sleep        - Make the terminal thread sleep for given time
+version      - show version of hypervisor
+vserial      - virtual serial port commands
+blockdev     - block device commands
+rtcdev       - rtc device commands
+vfs          - vfs related commands
+XVisor# vserial
+Usage:
+   vserial bind <name>
+   vserial dump <name> [<byte_count>]
+   vserial help
+   vserial list
+Error: command vserial failed (code -1)
+XVisor# gurst kick guest0
+Error: unknown command gurst
+XVisor# guest kick guest0
+guest0: Kicked
+XVisor# bind guest0/uart0
+Error: unknown command bind
+XVisor# vserial bind guest0/uart0
+[guest0/uart0] ARM Virt-v8 Basic Firmware
+[guest0/uart0]
+[guest0/uart0] autoboot: disabled
+[guest0/uart0]
+[guest0/uart0] basic# autoexec
+[guest0/uart0] Unknown command
+[guest0/uart0] Unknown command
+[guest0/uart0] basic#
+[guest0/uart0] basic# autoexec
+[guest0/uart0] autoexec(copy 0x40080000 0x00100000 0x16F0000)
+[guest0/uart0] copy took 2957763 usecs for 0x16F0000 bytes
+[guest0/uart0] autoexec(copy 0x42000000 0x017F0000 0x010000)
+[guest0/uart0] copy took 8070 usecs for 0x010000 bytes
+[guest0/uart0] autoexec(copy 0x42100000 0x01800000 0x800000)
+[guest0/uart0] copy took 1031587 usecs for 0x800000 bytes
+[guest0/uart0] autoexec(start_linux_fdt 0x40080000 0x42000000 0x42100000 0x800000)
+[guest0/uart0] Trying to set new bootargs: root=/dev/ram rw earlycon=pl011,0x09000000 console=ttyAMA0 mem=256M
+[guest0/uart0] Jumping into linux ...
+[guest0/uart0] [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+[guest0/uart0] [    0.000000] Linux version 6.1.39 (praveenv@praveenv-vm) (aarch64-linux-gnu-gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1 SMP PREEMPT Tue Aug  8 10:44:21 IST 2023
+[guest0/uart0] [    0.000000] Machine model: Virt-v8
+[guest0/uart0] [    0.000000] earlycon: pl11 at MMIO 0x0000000009000000 (options '')
+[guest0/uart0] [    0.000000] printk: bootconsole [pl11] enabled
+[guest0/uart0] [    0.000000] Memory limited to 256MB
+[guest0/uart0] [    0.000000] efi: UEFI not found.
+[guest0/uart0] [    0.000000] [Firmware Bug]: Kernel image misaligned at boot, please fix your bootloader!
+[guest0/uart0] [    0.000000] Reserved memory: created DMA memory pool at 0x0000000038000000, size 16 MiB
+[guest0/uart0] [    0.000000] OF: reserved mem: initialized node shmem@38000000, compatible id shared-dma-pool
+[guest0/uart0] [    0.000000] NUMA: No NUMA configuration found
+[guest0/uart0] [    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000004fffffff]
+[guest0/uart0] [    0.000000] NUMA: NODE_DATA [mem 0x4ff73a00-0x4ff75fff]
+[guest0/uart0] [    0.000000] Zone ranges:
+[guest0/uart0] [    0.000000]   DMA      [mem 0x0000000040000000-0x000000004fffffff]
+[guest0/uart0] [    0.000000]   DMA32    empty
+[guest0/uart0] [    0.000000]   Normal   empty
+[guest0/uart0] [    0.000000] Movable zone start for each node
+[guest0/uart0] [    0.000000] Early memory node ranges
+[guest0/uart0] [    0.000000]   node   0: [mem 0x0000000040000000-0x000000004fffffff]
+[guest0/uart0] [    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000004fffffff]
+[guest0/uart0] [    0.000000] cma: Reserved 32 MiB at 0x000000004da00000
+[guest0/uart0] [    0.000000] psci: probing for conduit method from DT.
+[guest0/uart0] [    0.000000] psci: PSCIv0.2 detected in firmware.
+[guest0/uart0] [    0.000000] psci: Using standard PSCI v0.2 function IDs
+[guest0/uart0] [    0.000000] psci: Trusted OS migration not required
+[guest0/uart0] [    0.000000] percpu: Embedded 20 pages/cpu s43880 r8192 d29848 u81920
+[guest0/uart0] [    0.000000] Detected PIPT I-cache on CPU0
+[guest0/uart0] [    0.000000] CPU features: detected: Spectre-v2
+[guest0/uart0] [    0.000000] CPU features: detected: Spectre-v3a
+[guest0/uart0] [    0.000000] CPU features: detected: Spectre-v4
+[guest0/uart0] [    0.000000] CPU features: detected: Spectre-BHB
+[guest0/uart0] [    0.000000] CPU features: kernel page table isolation forced ON by KASLR
+[guest0/uart0] [    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[guest0/uart0] [    0.000000] CPU features: detected: ARM erratum 1742098
+[guest0/uart0] [    0.000000] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[guest0/uart0] [    0.000000] alternatives: applying boot alternatives
+[guest0/uart0] [    0.000000] Fallback order for Node 0: 0
+[guest0/uart0] [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 64512
+[guest0/uart0] [    0.000000] Policy zone: DMA
+[guest0/uart0] [    0.000000] Kernel command line: root=/dev/ram rw earlycon=pl011,0x09000000 console=ttyAMA0 mem=256M
+[guest0/uart0] [    0.000000] Dentry cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[guest0/uart0] [    0.000000] Inode-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[guest0/uart0] [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[guest0/uart0] [    0.000000] Memory: 193320K/262144K available (13376K kernel code, 1342K rwdata, 4616K rodata, 2624K init, 544K bss, 36056K reserved, 32768K cma-reserved)
+[guest0/uart0] [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[guest0/uart0] [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[guest0/uart0] [    0.000000] rcu:      RCU event tracing is enabled.
+[guest0/uart0] [    0.000000] rcu:      RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+[guest0/uart0] [    0.000000]   Trampoline variant of Tasks RCU enabled.
+[guest0/uart0] [    0.000000]   Tracing variant of Tasks RCU enabled.
+[guest0/uart0] [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[guest0/uart0] [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[guest0/uart0] [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[guest0/uart0] [    0.000000] Root IRQ handler: gic_handle_irq
+[guest0/uart0] [    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[guest0/uart0] [    0.000000] arch_timer: cp15 timer(s) running at 54.00MHz (virt).
+[guest0/uart0] [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+[guest0/uart0] [    0.000001] sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+[guest0/uart0] [    0.011052] Console: colour dummy device 80x25
+[guest0/uart0] [    0.018096] Calibrating delay loop (skipped), value calculated using timer frequency.. 108.00 BogoMIPS (lpj=216000)
+[guest0/uart0] [    0.031290] pid_max: default: 32768 minimum: 301
+[guest0/uart0] [    0.038740] LSM: Security Framework initializing
+[guest0/uart0] [    0.046148] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[guest0/uart0] [    0.056054] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[guest0/uart0] [    0.067380] cgroup: Disabling memory control group subsystem
+[guest0/uart0] [    0.075538] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[guest0/uart0] [    0.084764] cblist_init_generic: Setting adjustable number of callback queues.
+[guest0/uart0] [    0.094065] cblist_init_generic: Setting shift to 1 and lim to 1.
+[guest0/uart0] [    0.103008] cblist_init_generic: Setting shift to 1 and lim to 1.
+[guest0/uart0] [    0.112025] rcu: Hierarchical SRCU implementation.
+[guest0/uart0] [    0.119343] rcu:      Max phase no-delay instances is 1000.
+[guest0/uart0] [    0.127631] EFI services will not be available.
+[guest0/uart0] [    0.134835] smp: Bringing up secondary CPUs ...
+[guest0/uart0] [    0.142524] Detected PIPT I-cache on CPU1
+[guest0/uart0] [    0.142597] cacheinfo: Unable to detect cache hierarchy for CPU 1
+[guest0/uart0] [    0.142839] CPU1: Booted secondary processor 0x0000000001 [0x410fd083]
+[guest0/uart0] [    0.143091] smp: Brought up 1 node, 2 CPUs
+[guest0/uart0] [    0.174175] SMP: Total of 2 processors activated.
+[guest0/uart0] [    0.181622] CPU features: detected: 32-bit EL0 Support
+[guest0/uart0] [    0.189543] CPU features: detected: 32-bit EL1 Support
+[guest0/uart0] [    0.197429] CPU features: detected: CRC32 instructions
+[guest0/uart0] [    0.205472] CPU: All CPU(s) started at EL1
+[guest0/uart0] [    0.212203] alternatives: applying system-wide alternatives
+[guest0/uart0] [    0.222197] devtmpfs: initialized
+[guest0/uart0] [    0.229478] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[guest0/uart0] [    0.241336] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+[guest0/uart0] [    0.251677] pinctrl core: initialized pinctrl subsystem
+[guest0/uart0] [    0.259628] DMI not present or invalid.
+[guest0/uart0] [    0.266346] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[guest0/uart0] [    0.275687] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[guest0/uart0] [    0.284910] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[guest0/uart0] [    0.295452] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[guest0/uart0] [    0.306123] audit: initializing netlink subsys (disabled)
+[guest0/uart0] [    0.314616] audit: type=2000 audit(0.144:1): state=initialized audit_enabled=0 res=1
+[guest0/uart0] [    0.315126] thermal_sys: Registered thermal governor 'step_wise'
+[guest0/uart0] [    0.324779] thermal_sys: Registered thermal governor 'power_allocator'
+[guest0/uart0] [    0.333878] cpuidle: using governor menu
+[guest0/uart0] [    0.349755] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[guest0/uart0] [    0.359256] ASID allocator initialised with 32768 entries
+[guest0/uart0] [    0.367476] Serial: AMBA PL011 UART driver
+[guest0/uart0] [    0.375449] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
+[guest0/uart0] [    0.386204] printk: console [ttyAMA0] enabled
+[guest0/uart0] [    0.386204] printk: console [ttyAMA0] enabled
+[guest0/uart0] [    0.400374] printk: bootconsole [pl11] disabled
+[guest0/uart0] [    0.400374] printk: bootconsole [pl11] disabled
+[guest0/uart0] [    0.416993] KASLR enabled
+[guest0/uart0] [    0.432648] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[guest0/uart0] [    0.441546] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[guest0/uart0] [    0.450608] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[guest0/uart0] [    0.460126] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[guest0/uart0] [    0.469172] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[guest0/uart0] [    0.478747] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[guest0/uart0] [    0.487786] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[guest0/uart0] [    0.497353] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[guest0/uart0] [    0.508641] ACPI: Interpreter disabled.
+[guest0/uart0] [    0.515133] iommu: Default domain type: Translated
+[guest0/uart0] [    0.522115] iommu: DMA domain TLB invalidation policy: strict mode
+[guest0/uart0] [    0.531477] SCSI subsystem initialized
+[guest0/uart0] [    0.538302] usbcore: registered new interface driver usbfs
+[guest0/uart0] [    0.545997] usbcore: registered new interface driver hub
+[guest0/uart0] [    0.554059] usbcore: registered new device driver usb
+[guest0/uart0] [    0.562038] pps_core: LinuxPPS API ver. 1 registered
+[guest0/uart0] [    0.569568] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[guest0/uart0] [    0.581528] PTP clock support registered
+[guest0/uart0] [    0.588233] EDAC MC: Ver: 3.0.0
+[guest0/uart0] [    0.595136] FPGA manager framework
+[guest0/uart0] [    0.601485] vgaarb: loaded
+[guest0/uart0] [    0.606805] clocksource: Switched to clocksource arch_sys_counter
+[guest0/uart0] [    0.615368] VFS: Disk quotas dquot_6.6.0
+[guest0/uart0] [    0.621815] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[guest0/uart0] [    0.631591] pnp: PnP ACPI: disabled
+[guest0/uart0] [    0.654594] NET: Registered PF_INET protocol family
+[guest0/uart0] [    0.661729] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[guest0/uart0] [    0.672282] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[guest0/uart0] [    0.682922] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[guest0/uart0] [    0.693278] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[guest0/uart0] [    0.703821] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[guest0/uart0] [    0.713792] TCP: Hash tables configured (established 2048 bind 2048)
+[guest0/uart0] [    0.722961] UDP hash table entries: 256 (order: 1, 8192 bytes, linear)
+[guest0/uart0] [    0.732185] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes, linear)
+[guest0/uart0] [    0.742030] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[guest0/uart0] [    0.751127] RPC: Registered named UNIX socket transport module.
+[guest0/uart0] [    0.759134] RPC: Registered udp transport module.
+[guest0/uart0] [    0.766575] RPC: Registered tcp transport module.
+[guest0/uart0] [    0.774038] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[guest0/uart0] [    0.783286] PCI: CLS 0 bytes, default 64
+[guest0/uart0] [    0.790110] Unpacking initramfs...
+[guest0/uart0] [    0.799286] kvm [1]: HYP mode not available
+[guest0/uart0] [    0.806554] Initialise system trusted keyrings
+[guest0/uart0] [    0.813391] workingset: timestamp_bits=42 max_order=16 bucket_order=0
+[guest0/uart0] [    0.829990] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[guest0/uart0] [    0.838748] NFS: Registering the id_resolver key type
+[guest0/uart0] [    0.845973] Key type id_resolver registered
+[guest0/uart0] [    0.852800] Key type id_legacy registered
+[guest0/uart0] [    0.859724] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[guest0/uart0] [    0.869047] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[guest0/uart0] [    0.879488] 9p: Installing v9fs 9p2000 file system support
+[guest0/uart0] [    0.945970] Freeing initrd memory: 8192K
+[guest0/uart0] [    0.954410] Key type asymmetric registered
+[guest0/uart0] [    0.960579] Asymmetric key parser 'x509' registered
+[guest0/uart0] [    0.968314] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[guest0/uart0] [    0.978380] io scheduler mq-deadline registered
+[guest0/uart0] [    0.985675] io scheduler kyber registered
+[guest0/uart0] [    0.995173] simple-framebuffer 30000000.simplefb: framebuffer at 0x30000000, 0x1000000 bytes
+[guest0/uart0] [    1.005751] simple-framebuffer 30000000.simplefb: format=a8r8g8b8, mode=1600x900x32, linelength=6400
+[guest0/uart0] [    1.024005] Console: switching to colour frame buffer device 200x56
+[guest0/uart0] [    1.037592] simple-framebuffer 30000000.simplefb: fb0: simplefb registered!
+[guest0/uart0] [    1.047918] EINJ: ACPI disabled.
+[guest0/uart0] [    1.055886] virtio_rpmsg_bus virtio3: rpmsg host is online
+[guest0/uart0] [    1.064791] input: Xvisor VirtIO Input as /devices/platform/smb/a004000.virtio_input/virtio4/input/input0
+[guest0/uart0] [    1.084126] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[guest0/uart0] [    1.098035] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[guest0/uart0] [    1.113006] loop: module loaded
+[guest0/uart0] [    1.118335] virtio_blk virtio1: 1/0/0 default/read/poll queues
+[guest0/uart0] [    1.127191] virtio_blk virtio1: [vda] 0 512-byte logical blocks (0 B/0 B)
+[guest0/uart0] [    1.137827] megasas: 07.719.03.00-rc1
+[guest0/uart0] [    1.146407] tun: Universal TUN/TAP device driver, 1.6
+[guest0/uart0] [    1.155374] thunder_xcv, ver 1.0
+[guest0/uart0] [    1.160686] thunder_bgx, ver 1.0
+[guest0/uart0] [    1.166658] nicpf, ver 1.0
+[guest0/uart0] [    1.172518] hns3: Hisilicon Ethernet Network Driver for Hip08 Family - version
+[guest0/uart0] [    1.182066] hns3: Copyright (c) 2017 Huawei Corporation.
+[guest0/uart0] [    1.190205] hclge is initializing
+[guest0/uart0] [    1.196231] e1000: Intel(R) PRO/1000 Network Driver
+[guest0/uart0] [    1.203846] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[guest0/uart0] [    1.212416] e1000e: Intel(R) PRO/1000 Network Driver
+[guest0/uart0] [    1.220099] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[guest0/uart0] [    1.228818] igb: Intel(R) Gigabit Ethernet Network Driver
+[guest0/uart0] [    1.236941] igb: Copyright (c) 2007-2014 Intel Corporation.
+[guest0/uart0] [    1.245325] igbvf: Intel(R) Gigabit Virtual Function Network Driver
+[guest0/uart0] [    1.254327] igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+[guest0/uart0] [    1.263063] sky2: driver version 1.30
+[guest0/uart0] [    1.269889] VFIO - User Level meta-driver version: 0.3
+[guest0/uart0] [    1.278706] usbcore: registered new interface driver usb-storage
+[guest0/uart0] [    1.288099] mousedev: PS/2 mouse device common for all mice
+[guest0/uart0] [    1.297221] rtc-pl031 9003000.rtc: registered as rtc0
+[guest0/uart0] [    1.304385] rtc-pl031 9003000.rtc: setting system clock to 1970-01-01T00:04:06 UTC (246)
+[guest0/uart0] [    1.315423] i2c_dev: i2c /dev entries driver
+[guest0/uart0] [    1.323571] sp805-wdt 9004000.wdt: registration successful
+[guest0/uart0] [    1.331910] sdhci: Secure Digital Host Controller Interface driver
+[guest0/uart0] [    1.340187] sdhci: Copyright(c) Pierre Ossman
+[guest0/uart0] [    1.347490] Synopsys Designware Multimedia Card Interface Driver
+[guest0/uart0] [    1.356302] sdhci-pltfm: SDHCI platform and OF driver helper
+[guest0/uart0] [    1.365096] ledtrig-cpu: registered to indicate activity on CPUs
+[guest0/uart0] [    1.374183] usbcore: registered new interface driver usbhid
+[guest0/uart0] [    1.381833] usbhid: USB HID core driver
+[guest0/uart0] [    1.389670] NET: Registered PF_PACKET protocol family
+[guest0/uart0] [    1.396925] 9pnet: Installing 9P2000 support
+[guest0/uart0] [    1.403882] Key type dns_resolver registered
+[guest0/uart0] [    1.411368] registered taskstats version 1
+[guest0/uart0] [    1.417718] Loading compiled-in X.509 certificates
+[guest0/uart0] [    1.436369] uart-pl011 9000000.pl011: no DMA platform data
+[guest0/uart0] [    1.446289] Freeing unused kernel memory: 2624K
+[guest0/uart0] [    1.474956] Run /init as init process
+[guest0/uart0]            _  _
+[guest0/uart0]           | ||_|
+[guest0/uart0]           | | _ ____  _   _  _  _
+[guest0/uart0]           | || |  _ \| | | |\ \/ /
+[guest0/uart0]           | || | | | | |_| |/    \
+[guest0/uart0]           |_||_|_| |_|\____|\_/\_/
+[guest0/uart0]
+[guest0/uart0]                Busybox Rootfs
+[guest0/uart0]
+[guest0/uart0] Please press Enter to activate this console.
+[guest0/uart0] / #
+[guest0/uart0] / #
+[guest0/uart0] / #
+[guest0/uart0] / # lsusb
+[guest0/uart0] / # ifconfig
+[guest0/uart0] / #
+[guest0/uart0] / #
+[guest0/uart0] / #
+[guest0/uart0] / #
+[guest0/uart0] / # ls
+[guest0/uart0] bin      etc      linuxrc  root     sys
+[guest0/uart0] dev      init     proc     sbin     usr
+[guest0/uart0] / # cat /proc/sys/de
+[guest0/uart0] debug/  dev/
+[guest0/uart0] / # ls
+[guest0/uart0] bin      etc      linuxrc  root     sys
+[guest0/uart0] dev      init     proc     sbin     usr
+[guest0/uart0] / # cat /proc/device
+[guest0/uart0] device-tree/  devices
+[guest0/uart0] / # cat /proc/device
+[guest0/uart0] device-tree/  devices
+[guest0/uart0] / # cat /proc/devices
+[guest0/uart0] Character devices:
+[guest0/uart0]   1 mem
+[guest0/uart0]   2 pty
+[guest0/uart0]   3 ttyp
+[guest0/uart0]   4 /dev/vc/0
+[guest0/uart0]   4 tty
+[guest0/uart0]   4 ttyS
+[guest0/uart0]   5 /dev/tty
+[guest0/uart0]   5 /dev/console
+[guest0/uart0]   5 /dev/ptmx
+[guest0/uart0]   7 vcs
+[guest0/uart0]  10 misc
+[guest0/uart0]  13 input
+[guest0/uart0]  29 fb
+[guest0/uart0]  89 i2c
+[guest0/uart0] 128 ptm
+[guest0/uart0] 136 pts
+[guest0/uart0] 180 usb
+[guest0/uart0] 189 usb_device
+[guest0/uart0] 204 ttyAMA
+[guest0/uart0] 226 drm
+[guest0/uart0] 229 hvc
+[guest0/uart0] 238 rpmb
+[guest0/uart0] 239 vfio
+[guest0/uart0] 240 megaraid_sas_ioctl
+[guest0/uart0] 241 virtio-portsdev
+[guest0/uart0] 242 ttyOWL
+[guest0/uart0] 243 ttyLF
+[guest0/uart0] 244 ttyLP
+[guest0/uart0] 245 bsg
+[guest0/uart0] 246 watchdog
+[guest0/uart0] 247 tee
+[guest0/uart0] 248 iio
+[guest0/uart0] 249 ptp
+[guest0/uart0] 250 pps
+[guest0/uart0] 251 rtc
+[guest0/uart0] 252 tpm
+[guest0/uart0] 253 rpmsg_char
+[guest0/uart0] 254 gpiochip
+[guest0/uart0]
+[guest0/uart0] Block devices:
+[guest0/uart0]   7 loop
+[guest0/uart0]   8 sd
+[guest0/uart0]  65 sd
+[guest0/uart0]  66 sd
+[guest0/uart0]  67 sd
+[guest0/uart0]  68 sd
+[guest0/uart0]  69 sd
+[guest0/uart0]  70 sd
+[guest0/uart0]  71 sd
+[guest0/uart0] 128 sd
+[guest0/uart0] 129 sd
+[guest0/uart0] 130 sd
+[guest0/uart0] 131 sd
+[guest0/uart0] 132 sd
+[guest0/uart0] 133 sd
+[guest0/uart0] 134 sd
+[guest0/uart0] 135 sd
+[guest0/uart0] 179 mmc
+[guest0/uart0] 254 virtblk
+[guest0/uart0] 259 blkext
+[guest0/uart0] / # ls
+[guest0/uart0] bin      etc      linuxrc  root     sys
+[guest0/uart0] dev      init     proc     sbin     usr
+[guest0/uart0] / # lsusb
+[guest0/uart0] / # date
+[guest0/uart0] Thu Jan  1 00:08:36 UTC 1970
+[guest0/uart0] / #
+
