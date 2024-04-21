@@ -1,4 +1,5 @@
 #create sh file and refer below linke : https://stackoverflow.com/questions/67522041/qemu-network-not-working-needed-for-tftp-booting
+#https://www.youtube.com/watch?v=VCAqkyVd7dM
 
 set -x
 
