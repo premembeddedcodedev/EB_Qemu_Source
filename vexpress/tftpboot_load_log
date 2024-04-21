@@ -1,0 +1,176 @@
+praveenv@praveenv-vm:~/sambashare/sedna_linux/versatile_2010/u-boot$ sudo -s qemu-system-arm -M vexpress-a9 -m 512M -net nic -net tap,ifname=tap0 -kernel u-boot -nographic
+W: /etc/qemu-ifup: no bridge for guest interface found
+
+
+U-Boot 2016.11 (Apr 20 2024 - 21:57:40 +0530)
+
+DRAM:  512 MiB
+WARNING: Caches not enabled
+Flash: 128 MiB
+MMC:   MMC: 0
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   smc911x-0
+Hit any key to stop autoboot:  0
+=> setenv ipaddr 192.168.29.31;setenv serverip 192.168.29.35;ping 192.168.29.35
+smc911x: MAC 52:54:00:12:34:56
+smc911x: detected LAN9118 controller
+smc911x: phy initialized
+smc911x: MAC 52:54:00:12:34:56
+Using smc911x-0 device
+smc911x: MAC 52:54:00:12:34:56
+host 192.168.29.35 is alive
+=> bootz zImage
+Bad Linux ARM zImage magic!
+=> tftp 0x62008000 zImage
+smc911x: MAC 52:54:00:12:34:56
+smc911x: detected LAN9118 controller
+smc911x: phy initialized
+smc911x: MAC 52:54:00:12:34:56
+Using smc911x-0 device
+TFTP from server 192.168.29.35; our IP address is 192.168.29.31
+Filename 'zImage'.
+Load address: 0x62008000
+Loading: #################################################################
+         #################################################################
+         #############################
+         1.9 MiB/s
+done
+Bytes transferred = 2324896 (2379a0 hex)
+smc911x: MAC 52:54:00:12:34:56
+=> bootz zImage
+Bad Linux ARM zImage magic!
+=> boot
+Unknown command 'boot' - try 'help'
+=> bootm
+Wrong Image Format for bootm command
+ERROR: can't get kernel image!
+=> bootz 0x62008000
+Kernel image @ 0x62008000 [ 0x000000 - 0x2379a0 ]
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+Initializing cgroup subsys cpuset
+Linux version 2.6.39+ (praveenv@praveenv-vm) (gcc version 4.3.3 (Sourcery G++ Lite 2009q1-203) ) #2 SMP Sun Apr 21 13:49:30 IST 2024
+CPU: ARMv7 Processor [410fc090] revision 0 (ARMv7), cr=10c53c7f
+CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Machine: ARM-Versatile Express
+Memory policy: ECC disabled, Data cache writealloc
+sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+PERCPU: Embedded 7 pages/cpu @80591000 s6784 r8192 d13696 u32768
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Kernel command line: root=/dev/nfs nfsroot=10.1.69.3:/work/nfsroot ip=dhcp console=ttyAMA0 mem=128M
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Memory: 128MB = 128MB total
+Memory: 125240k/125240k available, 5832k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+    vmalloc : 0x88800000 - 0xf8000000   (1784 MB)
+    lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .init : 0x80008000 - 0x80035000   ( 180 kB)
+      .text : 0x80035000 - 0x8044a3c0   (4181 kB)
+      .data : 0x8044c000 - 0x8046e800   ( 138 kB)
+SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+NR_IRQS:128
+Console: colour dummy device 80x30
+Calibrating delay loop... 623.41 BogoMIPS (lpj=3117056)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+CPU: Testing write buffer coherency: ok
+hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 5 counters available
+Brought up 1 CPUs
+SMP: Total of 1 processors activated (623.41 BogoMIPS).
+NET: Registered protocol family 16
+L310 cache controller enabled
+l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x02420000, Cache size: 131072 B
+hw-breakpoint: debug architecture 0x4 unsupported.
+Serial: AMBA PL011 UART driver
+mb:uart0: ttyAMA0 at MMIO 0x10009000 (irq = 37) is a PL011 rev1
+console [ttyAMA0] enabled
+mb:uart1: ttyAMA1 at MMIO 0x1000a000 (irq = 38) is a PL011 rev1
+mb:uart2: ttyAMA2 at MMIO 0x1000b000 (irq = 39) is a PL011 rev1
+mb:uart3: ttyAMA3 at MMIO 0x1000c000 (irq = 40) is a PL011 rev1
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Advanced Linux Sound Architecture Driver Version 1.0.24.
+Switching to clocksource timer3
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP reno registered
+UDP hash table entries: 128 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 128 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+PMU: registered new PMU device of type 0
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 244
+io scheduler noop registered (default)
+clcd-pl11x ct:clcd: PL111 rev2 at 0x10020000
+clcd-pl11x ct:clcd: CT-CA9X4 hardware, XVGA display
+v2m_cfg_write: writing 03c8eee0 to 00110001
+v2m_cfg_write: writing 00000000 to 00710000
+v2m_cfg_write: writing 00000002 to 00b10000
+Console: switching to colour frame buffer device 128x48
+armflash-0: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000
+Intel/Sharp Extended Query Table at 0x0031
+Using buffer write method
+armflash-1: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000
+Intel/Sharp Extended Query Table at 0x0031
+Using buffer write method
+Concatenating MTD devices:
+(0): "armflash-0"
+(1): "armflash-1"
+into device "armflash"
+RedBoot partition parsing not available
+afs partition parsing not available
+smsc911x: Driver version 2008-10-21.
+smsc911x smsc911x: eth0: Features changed: 0x00004800 -> 0x00004000
+smsc911x-mdio: probed
+eth0: attached PHY driver [Generic PHY] (mii_bus:phy_addr=ffffffff:01, irq=-1)
+net eth0: MAC Address: 52:54:00:12:34:56
+isp1760 isp1760: NXP ISP1760 USB Host Controller
+isp1760 isp1760: new USB bus registered, assigned bus number 1
+isp1760 isp1760: Scratch test failed.
+isp1760 isp1760: can't setup
+isp1760 isp1760: USB bus 1 deregistered
+isp1760: Failed to register the HCD device
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+rtc-pl031 mb:rtc: rtc core: registered pl031 as rtc0
+mmci-pl18x mb:mmci: mmc0: PL181 manf 41 rev0 at 0x10005000 irq 41,42 (pio)
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+aaci-pl041 mb:aaci: ARM AC'97 Interface PL041 rev0 at 0x10004000, irq 43
+aaci-pl041 mb:aaci: FIFO 512 entries
+ALSA device list:
+  #0: ARM AC'97 Interface PL041 rev0 at 0x10004000, irq 43
+oprofile: using arm/armv7-ca9
+TCP cubic registered
+NET: Registered protocol family 17
+VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 0
+input: AT Raw Set 2 keyboard as /devices/mb:kmi0/serio0/input/input0
+rtc-pl031 mb:rtc: setting system clock to 2024-04-21 08:36:13 UTC (1713688573)
+input: ImExPS/2 Generic Explorer Mouse as /devices/mb:kmi1/serio1/input/input1
+net eth0: SMSC911x/921x identified at 0x888c0000, IRQ: 47
+Sending DHCP requests ......QEMU: Terminated
