@@ -1,0 +1,48 @@
+
+# Qemu Source compilation : https://learningfromyoublog.wordpress.com/2016/04/05/131/
+
+	praveenv@praveenv-vm:~/sambashare/sedna_linux/versatile_2010/git_eb/vexpress/vexpress_end2end$ qemu-system-arm --version
+	QEMU emulator version 4.2.1 (Debian 1:4.2-3ubuntu6.28)
+	Copyright (c) 2003-2019 Fabrice Bellard and the QEMU Project developers
+
+# u-boot source refer : https://learningfromyoublog.wordpress.com/2016/11/27/u-boot-arm-versatile-express-emulation-on-qemu-with-nfs-as-rootfs/
+
+	praveenv@praveenv-vm:~/sambashare/sedna_linux/versatile_2010/u-boot$ git branch
+	  master
+	  pbexistedlast
+	  pbremoved
+	  v2014.07_branch_vexpress_one_step_back_no_support
+	  v2014.10-rc1_branch_vexpress_first_time_enabled
+	* v2016.11_branch
+
+# linus source refer : https://learningfromyoublog.wordpress.com/2016/11/27/u-boot-arm-versatile-express-emulation-on-qemu-with-nfs-as-rootfs/
+
+	praveenv@praveenv-vm:~/sambashare/sedna_linux/versatile_2010/linux$ git branch
+	  master
+	  v2.6.38_branch_vexpress_disabled
+	* v2.6.39_branch_vexpress_enabled
+	  v4.8_branch
+	  vexpress_v3.0kernel
+
+# Ramdisk
+
+	https://balau82.wordpress.com/2012/03/31/compile-linux-kernel-3-2-for-arm-and-emulate-with-qemu/
+
+# refer https://learningfromyoublog.wordpress.com/2016/04/05/131/
+# tftp refer : https://learningfromyoublog.wordpress.com/2016/11/26/trivial-file-transfer-protocol-tftp-installation/
+# nfs refer : https://balau82.wordpress.com/2010/04/27/linux-nfs-root-under-qemu-arm-emulator/ => https://learningfromyoublog.wordpress.com/2016/11/26/nfs-network-file-system-protocol/
+# Bridge
+https://gist.github.com/xueliu/942c6809b08315b587ded2f42049f1bfi
+# Tool chain
+https://sources.buildroot.net/arm-gnu-toolchain/
+
+Good Resource:
+	https://www.orientdisplay.com/emulating-embedded-linux-systems-with-qemu/
+	https://medium.com/@fprotopapa/embedded-linux-from-scratch-quick-easy-on-qemu-87e761834b51
+	https://devarea.com/building-embedded-linux-system-with-qemu/
+	https://github.com/changlun65/qemu-armel-mini
+	https://www.linkedin.com/pulse/embedded-linux-road-map-part-1-hazem-khaled-igfdf/?trackingId=2Sntn5NOH2d5liPqF5Rz6A%3D%3D
+	https://serverfault.com/questions/1060053/dhcp-not-working-for-bridged-qemu-virtual-machine
+	https://community.nxp.com/t5/i-MX-Processors/Boot-i-MX8MM-using-NFS/m-p/1152978
+	https://wiki.emacinc.com/wiki/Booting_with_an_NFS_Root_Filesystem
+	https://stackoverflow.com/questions/67748423/cant-run-etc-init-d-rcs-no-such-file-or-directory
